@@ -35,3 +35,14 @@ El modelo identifica el conjunto mínimo de áreas que cumple estos objetivos de
 El resultado del análisis es un mapa raster de **áreas prioritarias de conservación**, que representa las celdas seleccionadas por el modelo para cumplir los objetivos de representación definidos.
 
 ## Estructura del repositorio
+
+scripts/ → código del análisis
+data/ → Leame indicando los archivos que deben de cargar
+outputs/ → Imagen resultado
+
+
+## Referencias
+
+Margules, C. R., & Pressey, R. L. (2000). *Systematic conservation planning*. Nature, 405, 243–253.
+
+Rodrigues, A. S. L. et al. (2004). *Effectiveness of the global protected area network in representing species diversity*. Nature.
