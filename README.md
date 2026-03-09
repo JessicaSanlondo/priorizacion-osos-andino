@@ -36,10 +36,9 @@ El resultado del análisis es un mapa raster de **áreas prioritarias de conserv
 
 ## Estructura del repositorio
 
-scripts/ → código del análisis
-data/ → Leame indicando los archivos que deben de cargar
-outputs/ → Imagen resultado
-
+- scripts/ → código del análisis
+- data/ → Leame indicando los archivos que deben de cargar
+- outputs/ → Imagen resultado
 
 ## Referencias
 
