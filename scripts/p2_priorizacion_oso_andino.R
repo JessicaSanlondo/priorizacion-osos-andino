@@ -87,7 +87,7 @@ costos <- costos - min_val
 
 p <- problem(costos, features) %>%
   add_min_set_objective() %>%
-  add_relative_targets(c(0.3, 0.2)) %>% #*Ver ocmentario al final de esta sección
+  add_relative_targets(c(0.3, 0.2)) %>% #*Ver comentario al final de esta sección
   add_binary_decisions() %>%
   add_rsymphony_solver()
 
@@ -167,4 +167,5 @@ writeRaster(
   solucion,
   "outputs/areas_prioritarias_oso.tif",
   overwrite = TRUE
+
 )
